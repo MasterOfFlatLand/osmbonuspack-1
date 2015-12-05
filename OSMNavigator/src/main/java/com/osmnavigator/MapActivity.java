@@ -40,7 +40,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.osmdroid.ResourceProxy;
 import org.osmdroid.api.IMapController;
 import org.osmdroid.bonuspack.cachemanager.CacheManager;
 import org.osmdroid.bonuspack.clustering.RadiusMarkerClusterer;
@@ -93,7 +92,6 @@ import org.osmdroid.views.overlay.ScaleBarOverlay;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

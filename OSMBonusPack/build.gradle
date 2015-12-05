@@ -18,11 +18,17 @@ android {
     }
 }
 
-dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+repositories {
+    jcenter()
+    flatDir {
+        dirs 'libs'
+    }
+}
 
-    compile "com.android.support:support-v4:22.2.0"
+dependencies {
+    compile(name:'osmbonuspack_v5.5', ext:'aar')
     compile 'org.osmdroid:osmdroid-android:5.0.1@aar'
+    compile "com.android.support:support-v4:22.2.0"
     compile 'org.apache.commons:commons-lang3:3.3.2'
     compile 'com.google.code.gson:gson:2.3'
 }
